@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 10px;
+}
+
+fieldset {
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+p {
+    padding: 15px 0;
+}
+
+button {
+    padding: 8px 12px;
+    margin-bottom: 20px;
+}
