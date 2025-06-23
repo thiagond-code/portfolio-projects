@@ -1,4 +1,4 @@
-import { ImageConfig as Brand, LinkConfig as NavItem } from "./index"
+import { ImageConfig as Brand } from "./index"
 
 interface BrandWIT extends Omit<Brand, 'captions'> {
     type: 'both'

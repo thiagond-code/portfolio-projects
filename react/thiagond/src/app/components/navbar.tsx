@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import { renderBrand, links } from './utils/navigation';
 
-export const renderNavLinks = links.map((navLink, id) => {
+export const renderNavLinks = links.map((navLink) => {
     return (
-        <li key={id} className='px-4 text-gray-700 hover:text-blue-500 transition-colors duration-600 ease-in-out delay-100 font-medium'>
+        <li key={navLink.label} className='px-4 text-gray-700 hover:text-blue-500 transition-colors duration-600 ease-in-out delay-100 font-medium'>
             <Link href={navLink.link}>{navLink.label}</Link>
         </li>
     )
